@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+New Drawing Mode:
+Description:
+
+	A drawing mode enables a user to naturally draw a shape on the screen. The 
+	drawing mode consists of an image icon appearing in the left button panel.
+	When the user clicks the image icon, the drawing mode is enabled. This means
+	that a strategy for handling user input for this drawing mode is installed.
+
+	At this point, all mouse events of the user will trigger actions, such as drawing the shape by dragging/clicking.
+
+	After completing a shape, the shape is added to the actionHistory. Then the canvas will be updated.
+
+Implementation:
+
+	To add a new drawing mode named "X" provide...
+
+	1) image icon:
+	    Create a jpg image with dimensions 30x30 that follow the colour scheme.
+	    Then place it the resources folder images/ButtonIconX.jpg.
+
+    2) Class for X:
+        Create a class for "X".
+        X will be a subclass of Drawable.
+        Since Shape and Line are abstract subclasses of Drawable, X can also inherit from Shape/Line.
+
+    3) getArgs()
+       In PaintModel.java, add the case X to indicate what arguments are needed to create an X object.
+
+    4) Drawable Factory:
+        In DrawableFactory.java, add the case X to use the arguments from getArgs() to create an X object.
+
+    5) Mouse Handler Strategy:
+        Inside class X, implement functions:
+            public void pressed(MouseEvent mouseEvent)
+            public void moved(MouseEvent mouseEvent)
+            public void dragged(MouseEvent mouseEvent)
+            public void released(MouseEvent mouseEvent)
+
+    6) PaintShape:
+	    In FXMLController.java, go to the 'update(Observable o, Object arg)' function.
+	    Implement how the shape should be drawn by JavaFX.
+
+
+Example: 
+	Implementation of Square drawing mode
+	1) resources/ca.utoronto.utm.assignment2/img.icons/Circle.png
+	2) Circle.java
+	3) PaintModel.java [line 373-376]
+	4) DrawableFactory.java [line 24-27]
+	5) Circle.java [line 63-102]
+	6) FXMLController.java [line 573-586]
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+New Button:
+Description:
+   Creating a new button is adding a new element to the interface that can be clicked.
+
+Implementation:
+	To add a new button named X provide...
+
+	image icon:
+	    Create a jpg image with dimensions 30x30 that follow the colour scheme.
+	    Place it the resources folder images/ButtonIconX.jpg.
+
+	FXML: 
+		Add a button to any grid or HBox or VBox, where necessary.
+		If the grid is full increase the size of the grid accordingly.
+		Add the necessary button class styles, according to relative buttons in the section.
+		Add the necessary eventhandler, that will be called in the controller.
+	
+	FXMLController:
+		To handle the button input, create a handler with the same name as the button's eventhandler referencing FXML.
+		In this controller, you may call or add methods in the model accordingly.
+
+Example:
+   For example take a look at Undo.png, Undo.java, undoredohandle() in the controller, the model's implementation of undo, and line 75 in paint-view.fxml
+--------------------------------------------------------------------------------

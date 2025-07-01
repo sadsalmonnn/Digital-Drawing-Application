@@ -1,0 +1,164 @@
+# Fill in, commit and push each day.
+Member name: ANG Eugene Ming Hei      email: eugene.ang@mail.utoronto.ca    utorid: angeugen
+
+Oct 14,2024
+	What I did yesterday: /
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 15,2024
+	What I did yesterday: /
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 16,2024
+	What I did yesterday: /
+	What I will do today: Meeting with my groupmates, setup working environment, discuss planning
+	Obstacles I face:     Understanding what is the programme with a little instructions
+
+Oct 17,2024
+	What I did yesterday: Meeting with my group, discussed the features that we want to implement, did some division of work
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 18,2024
+	What I did yesterday: /
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 19,2024
+	What I did yesterday: /
+	What I will do today: Fix BUG1.006
+	Obstacles I face:     Understanding branch and merge.
+
+Oct 20,2024
+	What I did yesterday: Fixed BUG1.006
+	What I will do today: Complete US1.002
+	Obstacles I face:     How to update the circle without creating a new one.
+
+Oct 21,2024
+	What I did yesterday: Completed US1.002
+	What I will do today: Think about how to improve the architecture of the project.
+	Obstacles I face:     Understanding MVC
+
+Oct 22,2024
+	What I did yesterday: Think of an outline of a MVC structure.
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 23,2024
+	What I did yesterday: /
+	What I will do today: /
+   	Obstacles I face:     /
+
+Oct 24,2024
+	What I did yesterday: /
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 25,2024
+	What I did yesterday: /
+	What I will do today: Discuss how we want the architecture to be, and divide the work for Sprint 2.
+	Obstacles I face:     Understanding different design patterns.
+
+Oct 26,2024
+	What I did yesterday: Got an outline of how to change the architecture and my division of work in Sprint 2.
+	What I will do today: Complete the drawing Square functions: US2.008, US2.010.
+	Obstacles I face:     Adapt to the new architecture when merging.
+
+Oct 27,2024
+	What I did yesterday: Completed US2.008, US2.010.
+	What I will do today: Add new functions to Paint: US2.006, US2.007.
+	Obstacles I face:
+
+Oct 28,2024
+	What I did yesterday: Added new custom drawing functions to Paint.
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 29,2024
+	What I did yesterday: /
+	What I will do today: /
+	Obstacles I face:     /
+
+Oct 30,2024
+	What I did yesterday: /
+	What I will do today: Discuss features that we will be implemented, and divide the work for sprint 3.
+	Obstacles I face:     There's a lot of possible features to be implemented, but time is limited.
+
+Oct 31,2024
+	What I did yesterday: General planning for sprint 3.
+	What I will do today: Work on the Undo/Redo function
+	Obstacles I face:     How to handle the undone shapes.
+
+Nov 1,2024
+	What I did yesterday: Finished the undo/redo function.
+	What I will do today: Work on the Polyline drawing function
+	Obstacles I face:     Drawing polylines is very different from any other shapes (it cannot be drawn by dragging).
+
+Nov 2,2024
+	What I did yesterday: Completed the Polyline function.
+	What I will do today: Work on the Line Thickness selector function.
+	Obstacles I face:     How to handle the input to the slider for line thickness selection.
+
+Nov 3,2024
+	What I did yesterday: Completed the Line Thickness selector function.
+	What I will do today: Finish the Undo function for eraser.
+	Obstacles I face:     Need a new data storage to store the erased shapes.
+
+Nov 4,2024
+	What I did yesterday: Completed the Undo function for eraser.
+	What I will do today: Finish the Redo function for eraser.
+	Obstacles I face:     Redo erasing and redo drawings are very different, need new way of implementation.
+
+Nov 5,2024
+	What I did yesterday: Completed the Redo function for eraser.
+	What I will do today: /
+	Obstacles I face:     /
+
+Nov 6,2024
+	What I did yesterday: /
+	What I will do today: Fix Undo/Redo/Eraser according to the new architecture.
+	Obstacles I face:     How to handle redundant Undo actions.
+
+Nov 7,2024
+	What I did yesterday: Fixed BUG4.017
+	What I will do today: /
+	Obstacles I face:     /
+
+Nov 8,2024
+	What I did yesterday: /
+	What I will do today: Implement triangle drawings.
+	Obstacles I face:     There are many different kinds of triangles (E.g. Isosceles, Equilateral...) I need to choose
+	                      what to implement.
+
+Nov 9,2024
+	What I did yesterday: Completed drawing triangles.
+	What I will do today: Document all Shape classes.
+	Obstacles I face:     Understanding functions written by others.
+
+Nov 10,2024
+	What I did yesterday: Documented all Shape classes.
+	What I will do today:
+	Obstacles I face:
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

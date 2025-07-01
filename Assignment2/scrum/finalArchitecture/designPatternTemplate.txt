@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Name: DrawableFactory
+Pattern Name: Factory
+Reference: https://www.oodesign.com/factory-pattern
+
+Purpose:
+   This pattern encapsulates the Drawable object creation logic and improves testing and reusability.
+   In this application, users are constantly creating objects, thus it is mandatory to have a delicate way of drawable object creation.
+
+UML:
+   FactoryDesignPattern.pdf
+
+Classes:
+   PaintModel: Client
+   DrawableFactory: Factory
+   Drawable: Product
+   Polyline: ConcreteProduct
+   Squiggle: ConcreteProduct
+   Square: ConcreteProduct
+   Rectangle: ConcreteProduct
+   Triangle: ConcreteProduct
+   Circle: ConcreteProduct
+   Selector: ConcreteProduct
+   Textbox: ConcreteProduct
+   Oval: ConcreteProduct
+
+Usage:
+   Since users will be constantly drawing objects, developers will need a way to create these Drawable objects in memory.
+   Thus, if developers use DrawableFactory, it will reduce a lot of repetition in the code and help developers understand the general structure.
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Name: PaintObserver
+Pattern Name: Observer
+Reference: https://www.digitalocean.com/community/tutorials/observer-design-pattern-in-java
+
+Purpose:
+    For the Single Responsibility Principle, where every class must have a single, focused responsibility,
+    a single reason to change, we can understand that the Observable, PaintModel, has the responsibility of storing and
+    changing the state of the application and logic related to the painting features, such as the drawing of rectangles, text, etc.
+    On the other hand, the Observer, FXMLController, is designed to handle updates in the model, and inputs from the application interface.
+    Its sole purpose is to Observe changes from the Observable, and reflect them to the application interface.
+
+    For the Open-closed Principle, where components must be open for extension, we can understand that the Observer,
+    FXMLController is open for extension, the extension of new handlers, and buttons. Each of these handlers communicates to
+    the model a change. The Observable, PaintModel, can be extended to handle these changes, updating its observers once changed.
+
+UML:
+   ObserverDesignPattern.pdf
+
+Classes:
+   PaintModel: Observable
+   FXMLController: Observer
+
+Usage:
+    A developer would interact with this code by implementing new features, such as new shapes, etc or enhancing the
+    handling of drawings. They would achieve this purpose, by ensuring that whenever the model is changed, the observers are notified,
+    that is the FXMLController is notified.
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Name: CompositeAction
+Pattern Name: Composite
+Reference: https://www.oodesign.com/composite-pattern
+
+Purpose:
+   The Composite Design Pattern is a structural design pattern used to treat individual objects and compositions of objects uniformly.
+   In our application, Redo, Undo, Eraser, Drawables and all classes that extend Drawable are all composite of class Action.
+   This way we can organize all these objects and record them in one history, allowing a formal and standard way to work with each of the objects.
+
+UML:
+   CompositeDesignPattern.pdf
+
+Classes:
+   PaintModel: Client
+   Action: Component
+   Redo: Leaf
+   Undo: Leaf
+   Eraser: Leaf
+   Drawable: Composite
+   Line: Composite
+   Squiggle: Leaf
+   Polyline: Leaf
+   Oval: Leaf
+   Circle: Leaf
+   Triangle: Leaf
+   Rectangle: Composite
+   Square: Leaf
+   Selector: Composite
+   Textbox: Leaf
+
+Usage:
+   When developers try to work with this application, they would want to have a straight-forward and well-organized way
+   of implementing actions that users does. Thus, by implementing this design pattern, developers will be able to implement new classes by following its parent class.
+
+--------------------------------------------------------------------------------

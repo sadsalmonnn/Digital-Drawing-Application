@@ -1,0 +1,163 @@
+# Fill in, commit and push each day.
+Member name: Solomon James Ador-Dionisio email: solomon.adordionisio@mail.utoronto.ca utorid: dionis17
+
+Oct 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 15,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 16,2024
+	What I did yesterday: 
+	What I will do today: Meeting teamate, setup working environment and workspace
+	Obstacles I face: .idea environment not ignored
+
+Oct 17,2024
+	What I did yesterday:
+	What I will do today: Understanding the basics of paintpanel
+	Obstacles I face:
+
+Oct 18,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 19,2024
+	What I did yesterday:
+	What I will do today: Discuss and divide sprint1, work on sprint1
+	Obstacles I face: understanding the pathing for resources
+
+Oct 20,2024
+	What I did yesterday: Added icons and changed the temporary styling
+	What I will do today: Reviewed the VMC of our project and identified logic errors
+	Obstacles I face: Understanding the interactions of VMC
+
+Oct 21,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 22,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 23,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 24,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 25,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 26,2024
+	What I did yesterday:
+	What I will do today: Discuss about the priorities, user stories, and bugs to be put into next sprint. Discussed how the architecture can be changed.
+	Obstacles I face:
+
+Oct 27,2024
+	What I did yesterday: Completed most of BUG2.009 fixing the architecture for view.
+	What I will do today: Update UML Architecture, update archtecture.txt, implemment FXML, restructure controller.
+	Obstacles I face: Understanding the connection of elements to controller, the layout for FXML.
+
+Oct 28,2024
+	What I did yesterday: Update UML Architecture, update archtecture.txt, implemment FXML, restructure controller, created necessary buttons for other features.
+	What I will do today:
+	Obstacles I face:
+
+Oct 29,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 30,2024
+	What I did yesterday:
+	What I will do today: Discuss more features to be implemented, what is going onto next sprint, and divide tasks accordingly.
+	Obstacles I face:
+
+Oct 31,2024
+	What I did yesterday: finish US3.023, and merged US3.023 and BUG3.010
+	What I will do today: Work on designing icons
+	Obstacles I face:
+
+Nov 1,2024
+	What I did yesterday: finished US3.014 and BUG3.011
+	What I will do today:
+	Obstacles I face:
+
+Nov 2,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 3,2024
+	What I did yesterday: Finish the file tab menu implementation, new open save and save as, merged branches
+	What I will do today:
+	Obstacles I face:
+
+Nov 4,2024
+	What I did yesterday:
+	What I will do today: Attend sprint planning meeting, ensure that all the rest of tasks are created and assigned.
+	Obstacles I face:
+
+Nov 5,2024
+	What I did yesterday:
+	What I will do today: work on the styling of the application
+	Obstacles I face: HBOX underline not extending to the end of the outer hbox.
+
+Nov 6,2024
+	What I did yesterday: selected colour scheme, enhanced the color selection grid, centered boxes where necessary
+	What I will do today: finish the styling
+	Obstacles I face:HBox not shrinking to fit size, and canvas size not updating on resize
+
+Nov 7,2024
+	What I did yesterday:
+	What I will do today: finished US4.026
+	Obstacles I face: 
+
+Nov 8,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 9,2024
+	What I did yesterday:
+	What I will do today: Work on implementing textbox
+	Obstacles I face:
+
+Nov 10,2024
+	What I did yesterday: Implemented most of textbox, and finished eyedropper
+	What I will do today: finish textbox and comment code
+	Obstacles I face: the selection of a textbox
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

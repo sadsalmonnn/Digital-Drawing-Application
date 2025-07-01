@@ -1,0 +1,7 @@
+S&O: 4
+WM: 3
+AE: 4
+
+Feedback:
+- [WM] Make sure to revise the document for repeated words or added characters (e.g. "and and" and "classm") (architecture.txt)
+- [WM] Make sure indentation is consistent. Drawing Eraser's indentation does not appear in most of the other stories. (productBacklog.txt)

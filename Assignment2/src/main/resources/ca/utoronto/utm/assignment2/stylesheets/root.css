@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rowdies:wght@300;400;700&display=swap');
+
+
+.root {
+    -fx-background-color: #F6BFC5;
+}
+
+.rootbody {
+    -fx-background-color: #F6BFC5;
+    -fx-padding: 10px;
+
+    -fx-font-family: "Quicksand", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #520025;
+}
+
+.header,
+.topsection,
+.middlesection,
+.bottomsection {
+    -fx-background-color: transparent;
+}
+
+.seperator {
+    -fx-border-width: 0 2px 0 0;
+    -fx-border-color: #E58EAA;
+}
+
+.menubutton {
+    -fx-background-color: transparent;
+    -fx-border-width: 0px;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0px;
+    -fx-text-fill: #8F8A93;
+}
+
+.canvassection {
+    -fx-border-width: 2px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E58EAA;
+}
+
+.middlesection {
+    -fx-border-width: 2px 0 0;
+    -fx-border-color: #E58EAA;
+}
+
+.topmidwrap {
+    -fx-border-width: 2px;
+    -fx-border-color: #E58EAA;
+    -fx-border-radius: 16px;
+}
+
+.selectionwrap,
+.toolswrap,
+.shapeswrap,
+.colorswrap {
+    -fx-background-color: #f7acb5;
+    -fx-background-radius: 20px;
+}
+
+.primarycolor {
+    -fx-background-color: #000000;
+    -fx-background-radius: 30px;
+}
+
+.colorpanelbuttons {
+    -fx-background-radius: 10px;
+}
+
+.linethicknesswrapper {
+    -fx-border-width: 0 0 2px 0;
+}
+
+/*
+#F6BFC5 - bg
+#E58EAA - border
+#FFFFFF - canvas
+#8F8A93 - labels
+
+*/
+
+
+.toggle-button {
+    -fx-background-color: #520025;
+    -fx-background-radius: 15px;
+    -fx-text-fill: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.2, 0, 1);
+    /* Hide text */
+}
+
+.filllabel {
+    -fx-text-fill: #FFFFFF;
+}
+
+.buttonfill {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+}
+
+.filllabeloff {
+    -fx-translate-x: 18px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.buttonfilloff {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+    -fx-translate-x: -40px;
+}
+
+.slider .track {
+    -fx-background-color: #f7acb5;
+    -fx-background-radius: 10;
+    -fx-padding: 2;
+    -fx-border-color: #E58EAA;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+
+.slider .thumb {
+    -fx-background-color: #E58EAA;
+    -fx-background-radius: 50%;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.2, 0, 1);
+}
+
+.slider .axis {
+    -fx-tick-label-fill: #520025;
+    -fx-tick-label-font-family: "Quicksand", sans-serif;
+    -fx-tick-label-font-size: 16px;
+    -fx-tick-label-font-weight: bold;
+    /* -fx-tick-fill: #8F8A93; */
+}
+
+
+/* .MenuItem {
+    -fx-background-color: #F6BFC5;
+    -fx-border-color: #E58EAA;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+
+} */
+.menu-button>.arrow-button>.arrow {
+    -fx-background-color: #520025;
+}
+
+.menu-item:focused {
+    -fx-background-color: #f7acb5;
+    -fx-background-radius: 15px;
+}
+
+.context-menu {
+    -fx-background-color: #F6BFC5;
+    -fx-border-color: #E58EAA;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+/* .context-menu:hover {
+    -fx-background-color: darkgray;
+    -fx-background-radius: 15px;
+} */
+
+.header HBox {
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-color: #E58EAA;
+    -fx-border-radius: 15;
+}

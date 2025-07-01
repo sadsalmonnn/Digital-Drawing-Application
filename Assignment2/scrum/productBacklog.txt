@@ -1,0 +1,578 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+# For example: Draw Circle was split into two user stories US1.010 and US1.011
+# 
+# For example, the color chooser user story involves: 
+# 1 Color chooser UI (which could be a USER STORY)
+# 2 Implementation of selected color into the drawing stream.
+# 
+# The naming convention is USs.stp s is the sprint number this user story
+# appears in. s is the sprint that introduced the user story, 
+# t is a topic number, and p is the parts that the topic is
+# divided into (for larger user stories).
+#
+# Please change the status of the user story/bug to 
+#     NotStarted,InProgress, Incomplete,Complete
+# as appropriate.
+
+
+# COMPLETED USER STORIES/BUGS BELOW ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.001 : rosenbl6 : Complete
+NAME     : Draw Circle
+PRIORITY : 1
+ESTIMATE : 2 hours ACTUAL : 2 hours
+AS A     : user
+I WANT   : To click the center of the circle, drag, and release to specify
+           a circle to be drawn in the current style.
+SO THAT  : I can add circles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.002 : angeugen : Complete
+NAME     : Draw Circle Feedback
+PRIORITY : 2
+ESTIMATE : 2 hours   ACTUAL : 2 hours
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+         circle should be on display. As the user drags, the 'current'
+         circle changes in real time so that a circle is drawn with
+         centre at users initial circle click, with radius out to
+         the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+         button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.003 : wongbr59 : Complete
+NAME     : Draw Rectangle
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to
+		   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.004 : wongbr59 : Complete
+NAME     : Draw Rectangle Feedback
+PRIORITY : 2
+ESTIMATE : 4 Hours    ACTUAL : 1 hour
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid construction.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.005 : wongbr59 : Complete
+NAME     : Color selector
+PRIORITY : 3
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example:
+           		selects color red
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.006 : angeugen : Complete
+NAME     : Fill style selector
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example:
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : I can choose between filled shapes and outlined shapes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.007 : angeugen : Complete
+NAME     : Line thickness selector
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : I can draw lines/shapes with different line thickness.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.008 : angeugen : Complete : (Written by dionis17)
+NAME     : Draw Square Feedback
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : Similarly to Draw Rectangle Feedback, display the square in mid construction.
+SO THAT  : I can see the square I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.009 : wongbr59 : Complete : (Written by dionis17)
+NAME     : Drawing Eraser
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to click, drag, and release on one point on the drawing panel to
+					 delete any shapes drawn within these point(s).
+SO THAT  : The shapes will no longer be visible, and are removed from the drawing panel.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.010 : angeugen : Complete : (Written by angeugen)
+NAME     : Draw Square
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+I WANT   : To click on one corner of a square, drag to determine the height, and have the width automatically match
+           the height. This will form a perfect square. The square should be created depending on the direction I
+           drag, so the corner can be drawn to the left or right based on the mouse location.
+SO THAT  : I can add squares to my canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.011 : angeugen : Complete : (Written by angeugen)
+NAME     : Draw Polyline
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To click to create the starting point of a polyline, then continue clicking to add additional points, with
+           lines automatically drawn between the click and the previous point.
+SO THAT  : I can add polylines to my canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.012 : angeugen : Complete : (Written by wongbr59)
+NAME     : Undo Drawing
+PRIORITY : 2
+ESTIMATE : 2 hours   ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to perform an undo operation by clicking the undo bottom under the Edit dropdown menu.
+           I should also be able to perform this operation by pressing a hotkey combination.
+SO THAT  : I can undo any drawing I drew.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.013 : angeugen : Complete : (Written by wongbr59)
+NAME     : Redo Drawing
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to perform an redo operation by clicking the redo bottom under the Edit dropdown menu.
+           I should also be able to perform this operation by pressing a hotkey combination.
+SO THAT  : I can redo any drawing I undo-ed before.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.014 : dionis17 : Complete
+NAME     : Prettify Icons
+PRIORITY : 1
+ESTIMATE : 2 days    ACTUAL : 1 day
+AS A     : user
+I WANT   : To make sure the drawing icons, square, circle, etc, are viewable at all sizes of the canvas.
+SO THAT  : I am able to clearly identify the icons' purpose.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.015 : dionis17 : Complete
+NAME     : Implement FXML
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : developer
+I WANT   : To make sure the PaintPanel Canvas, ShapeChooserPanel GridPlane, are implemented in the View as through FXML
+SO THAT  : I am able to change properties of elements in the FXML using JavaFX Scene Builder
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.018 : angeugen : complete
+NAME     : Draw Oval
+PRIORITY : 1
+ESTIMATE : 2 hours   ACTUAL : 2 hours
+AS A     : user
+I WANT   : To oval the center of the oval, drag, and release to specify
+           a oval to be drawn in the current style.
+SO THAT  : I can add ovals to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.019 : angeugen : complete
+NAME     : Draw Oval Feedback
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : As a user is specifying a Oval, during the drag, a 'current'
+           oval should be on display. As the user drags, the 'current'
+           oval changes in real time so that a oval is drawn with
+           centre at users initial oval click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the oval I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.020 : wongbr59 : Complete
+NAME     : Select Area on Canvas
+PRIORITY : 2
+ESTIMATE : 1 day    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To make sure that when the user presses the selection tool button, they are given the option to press, and drag on the canvas to draw a line
+		   in the canvas. On user release, if they haven't connected the end-point to the start-point, this line is automatically connected, from the end-point to the start-point, linearly, to simulate a selection. This area of pixels on the canvas are saved to the model.
+SO THAT  : The user is able to select an area around the canvas, and be able to interact with this area.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.021 : wongbr59 : Complete
+NAME     : Select Area Feedback
+PRIORITY : 2
+ESTIMATE : 1 day    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to see the area the dotted line that I am drawing in representing the area I am selecting.
+SO THAT  : I am able to clearly identify the selected area.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.022 : wongbr59 : Complete
+NAME     : Cut Shape
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to delete the selected area, that is deleted all shapes that are in the area and a part of the area.
+SO THAT  : I am able to see the selected area to be empty.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.023 : dionis17 : Complete
+NAME     : Create View Layout
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to see all the features and buttons, that can be used and pressed, such as redo, undo, line thickness selector, etc.
+SO THAT  : I am able to see the overall layout for the application
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.024 : wongbr59 : Complete
+NAME     : Polyline Feedback
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to see the polyline line that I am about to draw.
+SO THAT  : It will be easier to draw.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.024 : dionis17 : Complete
+NAME     : Textfield Button
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 day
+AS A     : user
+I WANT   : To be able to press on the text icon, and click anywhere on the canvas, to create a
+		   section that increases in size as I type character into it, and displays the characters being typed.
+SO THAT  : I am able to create text on the canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.025 : dionis17 : Complete
+NAME     : Eyedropper
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to press on the eyedropper icon, and click anywhere on the canvas, and sets my current color, to the pixel I have clicked on.
+SO THAT  : I am able to use the eyedropper to select colours easily.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.026 : dionis17 : Complete
+NAME     : Application Styling
+PRIORITY : 1
+ESTIMATE : 1 days    ACTUAL : 2 days
+AS A     : user
+I WANT   : to see the application styled with a prominent set of colours and the buttons, canvas, backgrounds, etc. are styled uniquely and consistently.
+SO THAT  : I am able to have a visually appealing application and a unique user experience
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.027 : dionis17 : Complete
+NAME     : File New
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to click on file new, first alert and ask if the current file wants to be saved, and then create a new blank canvas
+SO THAT  : I am able to create a new blank canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.028 : dionis17 : Complete
+NAME     : File Open
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to click on file open, open an image, and display it onto the canvas. This involves the need for a scrolling pane for the canvas section, if the image is greater than the window's current size.
+SO THAT  : I am able to edit images.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.029 : dionis17 : Complete
+NAME     : File Save
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to click on file save, save my current canvas as an image type in my file directory
+SO THAT  : I am able to save my image.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.030 : wongbr59 : Complete
+NAME     : Change Selected Shape Color/Thickness
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to change the color/thickness of selected shapes.
+SO THAT  : Can change shape color/thickness after its drawn.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.031 : angeugen : Complete
+NAME     : Undo for Eraser
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to perform an undo operation on the previous erasing actions.
+SO THAT  : I am able to undo Eraser.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.032 : angeugen : Complete
+NAME     : Redo for Eraser
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to perform a redo operation on the previous erasing actions.
+SO THAT  : I am able to redo Eraser.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.033 : wongbr59 : Complete
+NAME     : Copy
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to create a selection, and press copy to save all the shapes selected.
+SO THAT  : copy all the objects selected.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.034 : wongbr59 : Complete
+NAME     : Paste
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To take all the objects and shapes saved, and paste it to the canvas at the same position, showing that it is selected, and given the option to move the selection around the canvas.
+SO THAT  : paste all the objects selected.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.035 : angeugen : Complete
+NAME     : Draw Triangle
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To press on a point that indicates the tip of the triangle, then drag to indicate the second point.
+           With the third point automatically calculated, a isosceles triangle will be drawn.
+SO THAT  : I can add triangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.036 : angeugen : Complete
+NAME     : Draw Triangle Feedback
+PRIORITY : 1
+ESTIMATE : 1 hour  ACTUAL : 1 hour
+AS A     : user
+I WANT   :
+SO THAT  : I can see the triangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.037 : wongbr59 : Complete
+NAME     : Move Selected Drawings
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to move selected drawings around by draging it.
+SO THAT  :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.001 : dionis17 : Complete
+NAME     : Icons instead of text for drawing mode selection
+PRIORITY : 1
+ESTIMATE : 2 days    ACTUAL : 4 hours
+ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.002 : dionis17 : Complete
+NAME     : Drawing selection mode not indicated
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 2 hours
+ISSUE    : Currently, you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is there a way
+           to highlight the currently selected mode?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.003 : wongbr59 : Complete
+NAME     : Architecture behind choosing selection mode is poor
+PRIORITY : 3
+ESTIMATE : 4 hours    ACTUAL : 1 hour
+ISSUE    : Code is not modular and is difficult to expand. Need a better
+           architecture behind selecting a drawing mode, and handling
+           the drawing events. Consider some design patterns here.
+           Refactor ShapeChooserPanel and PaintPanel to get rid of the
+           'if' blocks in the PaintPanel mouse event code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.004 : wongbr59 : Complete
+NAME     : Architecture behind Model is poor
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.005 : wongbr59 : Complete
+NAME     : Squiggle is broken
+PRIORITY : 1
+ESTIMATE : 2 hour    ACTUAL : 1 hour
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+		   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.006 : angeugen : Complete
+NAME     : Circle drawing is broken
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+ISSUE    : The first click should specify the center of the circle, with
+          a drag for the radius. This is not the case in the current
+          implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.007 : wongbr59 : Complete
+NAME     : Layer of drawing is not correct
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 1 hour
+ISSUE    : Drawings are not displayed in order drew, but instead circles
+           are under rectangles are under squiggle.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.008 : wongbr59 : Complete
+NAME     : Circle is selected by default
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL :
+ISSUE    : Circle is selected by default.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.009 : dionis17 : Complete
+NAME     : Architecture behind View is poor
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 4 hours
+ISSUE    : Parts of the initialization of the view have been seperated, for 
+           example the initialization of buttons in the ShapeChooserPanel.
+           Need to re-architect the Model so that it is more flexible, and
+           easier to work with. Consider some design patterns, or change of
+           responsibility here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.010 : wongbr59 : Complete
+NAME     : Implementation of ShapeFactory
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+ISSUE    : In the controller and model, there is a lot of switch cases and if statements to handle the specific shape
+		   to be drawn. There is also a lot of repetitive methods such as adder and getters. By implementing the design
+		   pattern, Factory, we can generalize the creation of shapes, and call the instance's methods, to handle the drawing
+		   and the other mouse events, specific to the shape being made. Each of the shapes all have similar methods in
+		   common such as, drawShape and the section to handle the events, addShape, and getShape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.011 : dionis17 : Complete
+NAME     : Selection of Buttons
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Whenever the button is pressed, it doesn't correctly indicate that is pressed or selected. I want to know if I selected a button
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.012 : wongbr59 : Complete
+NAME     : There is no class for Squiggle
+PRIORITY : 2
+ESTIMATE : 2 hour    ACTUAL : 2 hour
+ISSUE    : Unlike other drawable such as Circle and Rectangle, Squiggle wasn't
+           really a shape so there was no class for it. But for the sake of
+           organization, a Squiggle class should be implemented.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.013 : wongbr59 : Complete
+NAME     : Polyline Implementation
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : When drawing a polyline, we currently have it so that when you draw a couple of lines, and right click, it connects back to the start, creating a shape.
+		   What if we want to make an open ended shape, maybe just a jagged line? How can we implement this? Through a button? a keyboard input?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.016 : angeugen : Complete
+NAME     : Eraser not working
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+ISSUE    : When there are multiple shapes of the same kind, index error occurs when we try to erase any of those shapes.
+           (E.g. when there are two circles drawn, erasing any of them will give an error)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.015 : wongbr59 : Complete
+NAME     : Architecture Composite
+PRIORITY : 3
+ESTIMATE : 1 day    ACTUAL : 2 days
+AS A     : user
+I WANT   : the code can be optimized with the usage of the software design Composite. In the current code, everytime there is an update in the backend, the entire canvas is redrawn, and when there is a lot of elements on the canvas, this may get laggy and slow down performance. By applying Composite, we can have that only the newest created shape(s) are drawn.
+SO THAT  : I am able to have a smooth user experience.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.016 : wongbr59 : Complete
+NAME     : Parent of Squiggle and Polyline
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : It don't make sense to have Squiggle and Polyline to extend Shape. Need to make a new parent for it.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.017 : wongbr59 : Complete
+NAME     : Cut not working
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 1 hour
+ISSUE    : With the new Composite architecture change, Cut are made into objects instead of directly
+           modifying the shape sequence. So a new way of implementation is needed to work correctly.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.018 : angeugen : Complete
+NAME     : Redo/Undo/Eraser not working
+PRIORITY : 1
+ESTIMATE : 4 hour    ACTUAL : 4 hour
+ISSUE    : With the new Composite architecture change, Undo/Redo/Eraser are made into objects instead of directly
+           modifying the shape sequence. So a new way of implementation is needed to work correctly.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.019 : angeugen : Complete
+NAME     : Triangle cannot be selected
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Triangles are not selected when they are inside the selection box.
+           But they are always selected when (0, 0) is included in the box.
+--------------------------------------------------------------------------
+
+# OMITTED USER STORIES/BUGS BELOW   ###########################################
+

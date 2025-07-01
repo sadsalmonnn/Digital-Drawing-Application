@@ -1,0 +1,58 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	To keep the code simple, a partial MVC was implemented.
+	
+	Model
+	The Model captures enough information to re-draw the sketch of
+	the user. There is a PaintModel class, that encapsulates the application state:
+	history, layering of shape objects, and styles. 
+	
+	View+Controller
+	There is a main view file, named paint-view.fxml, which the application loads on launch.
+	This fxml view visually presents the information calculated and created in the model.
+	Each element in the view, such as drawing on the canvas or buttons to change shapes, 
+	is controlled by one controller, FXMLController. Each element calls their own method,
+	respectively.
+
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example, 
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+
+	The class ShapeChooserPanel and PaintPanel, were quite similar as they were both handling events
+	from the application. By combining the two files into one, the FXML view file is able
+	to output, to one controller, the inputs the client makes from the view.
+
+	The PaintModel was missing the creation of shapes, as they were in PaintPanel.
+	This should be in model as the controller's only purpose is to communicate with the model,
+	the user's inputs. The solution was a change of architecture, shifting responsibilties.
+
+	The architecture behind the scene creation has been changed, from manually creating each element,
+	to using FXML for ease of building and visualizing elements.
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code. 
+		
+	Strategy:
+	Command: 
+	Singleton:
+	Composite:
+	Factory:
+	We introduce the ShapeFactory class, as it simplifies the creation of a shape. We have that there is a superclass, Shape with multiple sub-classes, Rectangle, Circle, etc. Using this design pattern, our developers will not have to worry about which specific subclass needs to be instantiated.
+	Builder:
+	Observer/Observable:
+	We introduce an observable as the PaintModel, that updates, the observer, FXMLController, whenever there
+	is a change in the model, that is the creation of shapes on the canvas. This introduction enables ease of 
+	updating the view to reflect the model, very simply and efficiently.
+
+	... (any others you find useful) ...
+---------------------------------------------------------------------
+
+OTHER ARCHITECTURE DISCUSSIONS

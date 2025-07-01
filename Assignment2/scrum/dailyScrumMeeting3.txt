@@ -1,0 +1,163 @@
+# Fill in, commit and push each day.
+Member name: Brandon Wong email: blt.wong@mail.utoronto.ca utorid: wongbr59
+
+Oct 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 15,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 16,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 17,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 18,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 19,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 20,2024
+	What I did yesterday:
+	What I will do today: BUG1.005, US1.003, US1.004, BUG1.007, BUG1.008
+	Obstacles I face: Had to figure out a way to track draw history
+	                  Had to create a parent class to manage all shapes
+
+Oct 21,2024
+	What I did yesterday: BUG1.005, US1.003, US1.004, BUG1.007, BUG1.008
+	What I will do today: Fixed a small bug where consol printing action info twice
+	Obstacles I face:
+
+Oct 22,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 23,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 24,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 25,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 26,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 27,2024
+	What I did yesterday:
+	What I will do today: US2.005, BUG2.003, BUG2.004, BUG2.010
+	Obstacles I face:
+
+Oct 28,2024
+	What I did yesterday: US2.005, BUG2.003, BUG2.004, BUG2.010
+	What I will do today:
+	Obstacles I face:
+
+Oct 29,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 30,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 31,2024
+	What I did yesterday:
+	What I will do today: BUG3.010, US3.021
+	Obstacles I face:
+
+Nov 1,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 2,2024
+	What I did yesterday:
+	What I will do today: US3.024, BUG3.013
+	Obstacles I face:
+
+Nov 3,2024
+	What I did yesterday: US3.024, BUG3.013
+	What I will do today: US3.020, US3.009, 3.030
+	Obstacles I face:
+
+Nov 4,2024
+	What I did yesterday: US3.020, US3.009, US3.030
+	What I will do today: BUG4.015
+	Obstacles I face: Not able to restructure redo/undo methods, need help from Eugene Ang
+
+Nov 5,2024
+	What I did yesterday: BUG4.015 (Still in progress)
+	What I will do today: BUG4.015, BUG4.016
+	Obstacles I face:
+
+Nov 6,2024
+	What I did yesterday: BUG4.015 (Still in progress), BUG4.016
+	What I will do today: BUG4.015, US4.033, US4.034, US4.037
+	Obstacles I face:
+
+Nov 7,2024
+	What I did yesterday: BUG4.015, US4.033, US4.034, US4.037
+	What I will do today: BUG4.017
+	Obstacles I face:
+
+Nov 8,2024
+	What I did yesterday: BUG4.017
+	What I will do today:
+	Obstacles I face:
+
+Nov 9,2024
+	What I did yesterday:
+	What I will do today: Comment my part of code
+	Obstacles I face:
+
+Nov 10,2024
+	What I did yesterday: Comment my part of code
+	What I will do today: Continue to comment my part of code
+	Obstacles I face:
+
+Nov 11,2024
+	What I did yesterday: Finished commenting my part of code
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:

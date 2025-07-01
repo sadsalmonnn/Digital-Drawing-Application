@@ -1,0 +1,130 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 4 Nov 10-Nov 10, 2024
+# Sprint 4 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.024 : dionis17 : Complete
+NAME     : Textfield Button
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 day
+AS A     : user
+I WANT   : To be able to press on the text icon, and click anywhere on the canvas, to create a
+		   section that increases in size as I type character into it, and displays the characters being typed.
+SO THAT  : I am able to create text on the canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.025 : dionis17 : Complete
+NAME     : Eyedropper
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to press on the eyedropper icon, and click anywhere on the canvas, and sets my current color, to the pixel I have clicked on.
+SO THAT  : I am able to use the eyedropper to select colours easily.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.026 : dionis17 : Complete
+NAME     : Application Styling
+PRIORITY : 1
+ESTIMATE : 1 days    ACTUAL : 2 days
+AS A     : user
+I WANT   : to see the application styled with a prominent set of colours and the buttons, canvas, backgrounds, etc. are styled uniquely and consistently.
+SO THAT  : I am able to have a visually appealing application and a unique user experience
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.032 : angeugen : Complete
+NAME     : Redo for Eraser
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to perform a redo operation on the previous erasing actions.
+SO THAT  : I am able to redo Eraser.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.033 : wongbr59 : Complete
+NAME     : Copy
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to create a selection, and press copy to save all the shapes selected.
+SO THAT  : copy all the objects selected.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.034 : wongbr59 : Complete
+NAME     : Paste
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To take all the objects and shapes saved, and paste it to the canvas at the same position, showing that it is selected, and given the option to move the selection around the canvas.
+SO THAT  : paste all the objects selected.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.035 : angeugen : Complete
+NAME     : Draw Triangle
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To press on a point that indicates the tip of the triangle, then drag to indicate the second point.
+           With the third point automatically calculated, a isosceles triangle will be drawn.
+SO THAT  : I can add triangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.036 : angeugen : Complete
+NAME     : Draw Triangle Feedback
+PRIORITY : 1
+ESTIMATE : 1 hour  ACTUAL : 1 hour
+AS A     : user
+I WANT   :
+SO THAT  : I can see the triangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.037 : wongbr59 : Complete
+NAME     : Move Selected Drawings
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to move selected drawings around by draging it.
+SO THAT  :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.015 : wongbr59 : Complete
+NAME     : Architecture Composite
+PRIORITY : 3
+ESTIMATE : 1 day    ACTUAL : 2 days
+AS A     : user
+I WANT   : the code can be optimized with the usage of the software design Composite. In the current code, everytime there is an update in the backend, the entire canvas is redrawn, and when there is a lot of elements on the canvas, this may get laggy and slow down performance. By applying Composite, we can have that only the newest created shape(s) are drawn.
+SO THAT  : I am able to have a smooth user experience.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.016 : wongbr59 : Complete
+NAME     : Parent of Squiggle and Polyline
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : It don't make sense to have Squiggle and Polyline to extend Shape. Need to make a new parent for it.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.017 : wongbr59 : Complete
+NAME     : Cut not working
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 1 hour
+ISSUE    : With the new Composite architecture change, Cut are made into objects instead of directly
+           modifying the shape sequence. So a new way of implementation is needed to work correctly.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.018 : angeugen : Complete
+NAME     : Redo/Undo/Eraser not working
+PRIORITY : 1
+ESTIMATE : 4 hour    ACTUAL : 4 hour
+ISSUE    : With the new Composite architecture change, Undo/Redo/Eraser are made into objects instead of directly
+           modifying the shape sequence. So a new way of implementation is needed to work correctly.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.019 : angeugen : Complete
+NAME     : Triangle cannot be selected
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Triangles are not selected when they are inside the selection box.
+           But they are always selected when (0, 0) is included in the box.
+--------------------------------------------------------------------------

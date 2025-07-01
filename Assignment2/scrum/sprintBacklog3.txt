@@ -1,0 +1,206 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 3 Oct 27-Nov 03, 2024
+# Sprint 3 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.007 : angeugen : Complete
+NAME     : Line thickness selector
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : I can draw lines/shapes with different line thickness.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.009 : wongbr59 : Complete : (Written by dionis17)
+NAME     : Drawing Eraser
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to click, drag, and release on one point on the drawing panel to
+					 delete any shapes drawn within these point(s).
+SO THAT  : The shapes will no longer be visible, and are removed from the drawing panel.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.011 : angeugen : Complete : (Written by angeugen)
+NAME     : Draw Polyline
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To click to create the starting point of a polyline, then continue clicking to add additional points, with
+           lines automatically drawn between the click and the previous point.
+SO THAT  : I can add polylines to my canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.012 : angeugen : Complete : (Written by wongbr59)
+NAME     : Undo Drawing
+PRIORITY : 2
+ESTIMATE : 2 hours   ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to perform an undo operation by clicking the undo bottom under the Edit dropdown menu.
+           I should also be able to perform this operation by pressing a hotkey combination.
+SO THAT  : I can undo any drawing I drew.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.013 : angeugen : Complete : (Written by wongbr59)
+NAME     : Redo Drawing
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to perform an redo operation by clicking the redo bottom under the Edit dropdown menu.
+           I should also be able to perform this operation by pressing a hotkey combination.
+SO THAT  : I can redo any drawing I undo-ed before.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.014 : dionis17 : Complete
+NAME     : Prettify Icons
+PRIORITY : 1
+ESTIMATE : 2 days    ACTUAL : 1 day
+AS A     : user
+I WANT   : To make sure the drawing icons, square, circle, etc, are viewable at all sizes of the canvas.
+SO THAT  : I am able to clearly identify the icons' purpose.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.020 : wongbr59 : Complete
+NAME     : Select Area on Canvas
+PRIORITY : 2
+ESTIMATE : 1 day    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To make sure that when the user presses the selection tool button, they are given the option to press, and drag on the canvas to draw a line
+		   in the canvas. On user release, if they haven't connected the end-point to the start-point, this line is automatically connected, from the end-point to the start-point, linearly, to simulate a selection. This area of pixels on the canvas are saved to the model.
+SO THAT  : The user is able to select an area around the canvas, and be able to interact with this area.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.021 : wongbr59 : Complete
+NAME     : Select Area Feedback
+PRIORITY : 2
+ESTIMATE : 1 day    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to see the area the dotted line that I am drawing in representing the area I am selecting.
+SO THAT  : I am able to clearly identify the selected area.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.022 : wongbr59 : Complete
+NAME     : Cut Shape
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to delete the selected area, that is deleted all shapes that are in the area and a part of the area.
+SO THAT  : I am able to see the selected area to be empty.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.023 : dionis17 : Complete
+NAME     : Create View Layout
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to see all the features and buttons, that can be used and pressed, such as redo, undo, line thickness selector, etc.
+SO THAT  : I am able to see the overall layout for the application
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.027 : dionis17 : Complete
+NAME     : File New
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to click on file new, first alert and ask if the current file wants to be saved, and then create a new blank canvas
+SO THAT  : I am able to create a new blank canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.028 : dionis17 : Complete
+NAME     : File Open
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to click on file open, open an image, and display it onto the canvas. This involves the need for a scrolling pane for the canvas section, if the image is greater than the window's current size.
+SO THAT  : I am able to edit images.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.029 : dionis17 : Complete
+NAME     : File Save
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to click on file save, save my current canvas as an image type in my file directory
+SO THAT  : I am able to save my image.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.024 : wongbr59 : Complete
+NAME     : Polyline Feedback
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to see the polyline line that I am about to draw.
+SO THAT  : It will be easier to draw.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.030 : wongbr59 : Complete
+NAME     : Change Selected Shape Color/Thickness
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to change the color/thickness of selected shapes.
+SO THAT  : Can change shape color/thickness after its drawn.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.031 : angeugen : Complete
+NAME     : Undo for Cutting and Eraser
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to perform an undo operation on the previous eraser and cutting actions.
+SO THAT  : I am able to undo erasing/cutting.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.010 : wongbr59 : Complete
+NAME     : Implementation of ShapeFactory
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+ISSUE    : In the controller and model, there is a lot of switch cases and if statements to handle the specific shape
+		   to be drawn. There is also a lot of repetitive methods such as adder and getters. By implementing the design 
+		   pattern, Factory, we can generalize the creation of shapes, and call the instance's methods, to handle the drawing 
+		   and the other mouse events, specific to the shape being made. Each of the shapes all have similar methods in 
+		   common such as, drawShape and the section to handle the events, addShape, and getShape.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.011 : dionis17 : Complete
+NAME     : Selection of Buttons
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Whenever the button is pressed, it doesn't correctly indidicate that is pressed or selected. I want to know if I selected a button
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.013 : wongbr59 : Complete
+NAME     : Polyline Implementation
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : When drawing a polyline, we currently have it so that when you draw a couple of lines, and right click, it connects back to the start, creating a shape.
+		   What if we want to make an open ended shape, maybe just a jagged line? How can we implement this? Through a button? a keyboard input?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.016 : angeugen : Complete
+NAME     : Eraser not working
+PRIORITY : 3
+ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
+AS A     : user
+ISSUE    : When there are multiple shapes of the same kind, index error occurs when we try to erase any of those shapes.
+           (E.g. when there are two circles drawn, erasing any of them will give an error)
+--------------------------------------------------------------------------

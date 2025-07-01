@@ -1,0 +1,129 @@
+(replicate sections below for each feature you want to highlight)
+--------------------------------------------------------------------------------
+FeatureName: Color Selector
+
+Description: 
+	The interface allows for the user to select different colors and shades to color the shapes accordingly.
+	If objects are selected and a new color is picked in the color selector, each of the object’s colors are
+	changed to match the new color selected.
+
+Reference:
+	US2.005
+--------------------------------------------------------------------------------
+FeatureName: Fill Style Selector
+
+Description:
+	The interface allows for the user to click a toggle button to choose between Outline mode or Fill mode.
+	So that when they draw a shape, they can draw it with just the outline, or fill it in, with their selected color.
+
+Reference:
+	US2.006
+--------------------------------------------------------------------------------
+FeatureName: Line thickness selector
+
+Description:
+	The interface allows for the user to change the line thickness of
+	their shapes (if drawn with outline), pencil drawings, and text.
+
+Reference:
+	US3.007
+--------------------------------------------------------------------------------
+FeatureName: Drawing Mode: Polyline
+
+Description:
+	This Drawing Mode allows users to create polylines.
+    Each mouse click adds a new vertex of the line, and lines will automatically connect to the previous point,
+    forming a customizable path.
+    Moreover, the user can middle-click to end the polyline or right-click to connect to the first vertex.
+
+Reference:
+	US3.011, US3.024, BUG3.013
+--------------------------------------------------------------------------------
+FeatureName: Eraser
+
+Description:
+	Eraser mode allows users to delete the uppermost object or shape at the position of the cursor.
+
+Reference:
+	US3.009, BUG3.016, BUG4.018
+--------------------------------------------------------------------------------
+FeatureName: Undo/Redo
+
+Description:
+	 Undo reverses the last action performed by the user, restoring the canvas to its previous state.
+	 Users can repeatedly press "Undo" to revert multiple actions in sequence, moving back through their editing history step-by-step.
+     After an "Undo" operation, the Redo function allows the user to reapply the last action that was undone, moving forward in the editing history.
+
+Reference:
+	US3.012, US3.013, US3.031, US4.032, BUG4.018
+--------------------------------------------------------------------------------
+FeatureName: Beautified Front-end Design
+
+Description:
+	With the use of FXML and CSS, the application has been developed to look visually appealing with a modern layout.
+	The color palette of different shades of pink and purple allow for a contrasting, yet simple design.
+	The design is organized into clear sections, reducing clutter and improving its modern feel – the menu bar, the sections of functional buttons, and the paint canvas.
+	Due to the padded sections of tools and shape icons, users can identify their choice of tools easily.
+	Overall, the interactive elements have a friendly appearance, with the roundness of the buttons and slider, contributing to an approachable design.
+
+Reference:
+	US3.014, US3.023, US4.026, BUG3.011,
+--------------------------------------------------------------------------------
+FeatureName: Selecting
+
+Description:
+	The interface allows for the user to use a selection tool, to select an area on the canvas.
+	With this area selected, the user can do multiple actions including, copy, paste, etc.
+	The user can also move the selected area around, moving the selected shapes and drawings as well.
+
+Reference:
+	US3.020, US3.021, US3.030, US4.037
+--------------------------------------------------------------------------------
+FeatureName: Cutting
+
+Description:
+	The interface allows for the user to cut a selected area on the canvas, and delete all the objects in the selection.
+	The deleted shapes and drawings are then saved to the clipboard, to be used in the future.
+
+Reference:
+	US3.022, BUG4.017
+--------------------------------------------------------------------------------
+FeatureName: Adding Textbox
+
+Description:
+	The interface allows for the user to click on any point on the canvas, and begin typing characters at that point.
+
+Reference:
+	US4.024
+--------------------------------------------------------------------------------
+FeatureName: Eyedropper
+
+Description:
+	The interface allows for the user to click on any point on the canvas, and set the primary color to the selected color.
+
+Reference:
+	US4.025
+--------------------------------------------------------------------------------
+FeatureName: File Creating/Opening/Saving
+
+Description:
+	A dropdown menu, File, has been implemented with the following features: New, Open, Save, and Save as.
+    Clicking the New option, allows for the user to, first save their current canvas, and then create a new empty resetted canvas.
+    Clicking the Open option, allows for the user to open a JPG, JPEG, or PNG file from their local system, and set it as the background of the canvas.
+    Clicking the Save option allows for the user to save their current canvas as a JPG, JPEG, or PNG file on their local system. If the canvas is already saved to a file path, clicking save updates the file to reflect the current changes.
+    Clicking the Save as option allows for the user to save their current canvas as a JPG, JPEG, or PNG file on their local system, as a new file, whether it has been saved or not. Any new updates and saves to this canvas will be on this new path.
+
+
+Reference:
+	US3.027, US3.028, US3.029
+--------------------------------------------------------------------------------
+FeatureName: Copy and Paste
+
+Description:
+    This feature works together with the selection tool.
+    When the user presses "Copy," all currently selected objects and shapes are duplicated and stored temporarily. This includes any specific properties (e.g., color, line thickness, position) of the selected items.
+    Upon pressing "Paste," the copied objects are inserted back onto the canvas at the same position as the original selection, appearing highlighted to indicate they are selected. The user can immediately move the duplicated selection to a new location on the canvas, allowing for quick movements without needing to reselect again.
+
+Reference:
+	US4.033, US4.034
+--------------------------------------------------------------------------------

@@ -1,0 +1,149 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 2 Oct 20-Oct 27, 2024
+# Sprint 2 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.005 : wongbr59 : Complete
+NAME     : Color selector
+PRIORITY : 3
+ESTIMATE : 4 hours    ACTUAL : 4 hours
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example:
+           		selects color red
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.006 : angeugen : Complete
+NAME     : Fill style selector
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example:
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : I can choose between filled shapes and outlined shapes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.008 : angeugen : Complete
+NAME     : Draw Square Feedback
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : Similarly to Draw Rectangle Feedback, display the square in mid construction.
+SO THAT  : I can see the square I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.010 : angeugen : Complete
+NAME     : Draw Square
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+I WANT   : To click on one corner of a square, drag to determine the height, and have the width automatically match
+           the height. This will form a perfect square. The square should be created depending on the direction I
+           drag, so the corner can be drawn to the left or right based on the mouse location.
+SO THAT  : I can add squares to my canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.015 : dionis17 : Complete
+NAME     : Implement FXML
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : developer
+I WANT   : To make sure the PaintPanel Canvas, ShapeChooserPanel GridPlane, are implemented in the View as through FXML
+SO THAT  : I am able to change properties of elements in the FXML using JavaFX Scene Builder
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.018 : angeugen : complete
+NAME     : Draw Oval
+PRIORITY : 1
+ESTIMATE : 2 hours   ACTUAL : 2 hours
+AS A     : user
+I WANT   : To oval the center of the oval, drag, and release to specify
+           a oval to be drawn in the current style.
+SO THAT  : I can add ovals to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.019 : angeugen : complete
+NAME     : Draw Oval Feedback
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : As a user is specifying a Oval, during the drag, a 'current'
+           oval should be on display. As the user drags, the 'current'
+           oval changes in real time so that a oval is drawn with
+           centre at users initial oval click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the oval I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.003 : wongbr59 : Complete
+NAME     : Architecture behind choosing selection mode is poor
+PRIORITY : 3
+ESTIMATE : 4 hours    ACTUAL : 1 hour
+ISSUE    : Code is not modular and is difficult to expand. Need a better
+           architecture behind selecting a drawing mode, and handling
+           the drawing events. Consider some design patterns here.
+           Refactor ShapeChooserPanel and PaintPanel to get rid of the
+           'if' blocks in the PaintPanel mouse event code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.004 : wongbr59 : Complete
+NAME     : Architecture behind Model is poor
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.009 : dionis17 : Complete
+NAME     : Architecture behind View is poor
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 4 hours
+ISSUE    : Parts of the initialization of the view have been seperated, for 
+           example the initialization of buttons in the ShapeChooserPanel.
+           Need to re-architect the Model so that it is more flexible, and
+           easier to work with. Consider some design patterns, or change of
+           responsibility here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG2.010 : wongbr59 : Complete
+NAME     : There is no class for Squiggle
+PRIORITY : 2
+ESTIMATE : 2 hour    ACTUAL : 2 hour
+ISSUE    : Unlike other drawable such as Circle and Rectangle, Squiggle wasn't
+           really a shape so there was no class for it. But for the sake of
+           organization, a Squiggle class should be implemented.
+--------------------------------------------------------------------------
