@@ -1,6 +1,7 @@
 # Paint Application - JavaFX Drawing Tool
 
-![Paint App Screenshot](./path-to-your-screenshot.png) <!-- Add screenshot path if available -->
+![image](https://github.com/user-attachments/assets/f8af4d55-d230-4e1f-a0ea-3d5bddd92424)
+
 
 ---
 
@@ -86,11 +87,3 @@ The controller implements **Observer pattern** to listen for changes in the mode
 - Java Development Kit (JDK) 8 or higher
 - JavaFX SDK compatible with your JDK version
 - IDE like IntelliJ IDEA, Eclipse, or VS Code with JavaFX support
-
-### Running the Application
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/paint-application.git
-   cd paint-application
